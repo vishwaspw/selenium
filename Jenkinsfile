@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        maven 'VishwasMaven'  // Use the actual name configured in Jenkins
-        jdk 'VishwasJDK'      // Use the actual name configured in Jenkins
+        maven 'VishwasMaven'  // Assuming you configured Maven with this name
+        jdk 'JDK'             // Use the JDK name that exists in Jenkins
     }
 
     stages {
